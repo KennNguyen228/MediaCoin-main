@@ -1,2 +1,2 @@
-# MediaCoin-main
- test
+# MediaCoin
+ Media team
