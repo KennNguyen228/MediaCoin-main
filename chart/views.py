@@ -7,7 +7,7 @@ def Index(request):
     return render(request, 'index.html')
 
 def GetData(request):
-    url = 'https://drive.google.com/uc?id=1PGHqWe6t28ixsPOk7KLLY9ht4XqylDW6'
+    url = 'https://drive.google.com/uc?id=1tQRD6Qt-cvcdoOCNC--aOI16IOnVCYfb1Be4-cwOUf4'
     df = pd.read_csv(url)
     data = df.to_csv()
     return HttpResponse(data)
